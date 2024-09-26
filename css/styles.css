@@ -1,0 +1,34 @@
+/* Estilos básicos para el menú de navegación */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #333;
+    text-align: center;
+  }
+  
+  .navbar ul{
+    width: 30%;
+  }
+
+  .navbar ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: gray;
+    transition: 0.3s;
+}
+
+  body {
+    padding-top: 50px;
+    background: #334;
+    color: white;
+  }
+  
